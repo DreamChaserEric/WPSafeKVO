@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA419650225F386300A63851 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41964F225F386300A63851 /* AppDelegate.m */; };
+		EA419653225F386300A63851 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA419652225F386300A63851 /* ViewController.m */; };
+		EA419656225F386300A63851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA419654225F386300A63851 /* Main.storyboard */; };
+		EA419658225F386600A63851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA419657225F386600A63851 /* Assets.xcassets */; };
+		EA41965B225F386600A63851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA419659225F386600A63851 /* LaunchScreen.storyboard */; };
+		EA41965E225F386600A63851 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41965D225F386600A63851 /* main.m */; };
+		EA419668225F386600A63851 /* WPSafeKVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA419667225F386600A63851 /* WPSafeKVOTests.m */; };
+		EA419673225F386600A63851 /* WPSafeKVOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA419672225F386600A63851 /* WPSafeKVOUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA419664225F386600A63851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA419643225F386300A63851 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA41964A225F386300A63851;
+			remoteInfo = WPSafeKVO;
+		};
+		EA41966F225F386600A63851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA419643225F386300A63851 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA41964A225F386300A63851;
+			remoteInfo = WPSafeKVO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA41964B225F386300A63851 /* WPSafeKVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPSafeKVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA41964E225F386300A63851 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA41964F225F386300A63851 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA419651225F386300A63851 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA419652225F386300A63851 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA419655225F386300A63851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA419657225F386600A63851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA41965A225F386600A63851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA41965C225F386600A63851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA41965D225F386600A63851 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA419663225F386600A63851 /* WPSafeKVOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPSafeKVOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA419667225F386600A63851 /* WPSafeKVOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPSafeKVOTests.m; sourceTree = "<group>"; };
+		EA419669225F386600A63851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA41966E225F386600A63851 /* WPSafeKVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPSafeKVOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA419672225F386600A63851 /* WPSafeKVOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPSafeKVOUITests.m; sourceTree = "<group>"; };
+		EA419674225F386600A63851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA419648225F386300A63851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA419660225F386600A63851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA41966B225F386600A63851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA419642225F386300A63851 = {
+			isa = PBXGroup;
+			children = (
+				EA41964D225F386300A63851 /* WPSafeKVO */,
+				EA419666225F386600A63851 /* WPSafeKVOTests */,
+				EA419671225F386600A63851 /* WPSafeKVOUITests */,
+				EA41964C225F386300A63851 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA41964C225F386300A63851 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA41964B225F386300A63851 /* WPSafeKVO.app */,
+				EA419663225F386600A63851 /* WPSafeKVOTests.xctest */,
+				EA41966E225F386600A63851 /* WPSafeKVOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA41964D225F386300A63851 /* WPSafeKVO */ = {
+			isa = PBXGroup;
+			children = (
+				EA41964E225F386300A63851 /* AppDelegate.h */,
+				EA41964F225F386300A63851 /* AppDelegate.m */,
+				EA419651225F386300A63851 /* ViewController.h */,
+				EA419652225F386300A63851 /* ViewController.m */,
+				EA419654225F386300A63851 /* Main.storyboard */,
+				EA419657225F386600A63851 /* Assets.xcassets */,
+				EA419659225F386600A63851 /* LaunchScreen.storyboard */,
+				EA41965C225F386600A63851 /* Info.plist */,
+				EA41965D225F386600A63851 /* main.m */,
+			);
+			path = WPSafeKVO;
+			sourceTree = "<group>";
+		};
+		EA419666225F386600A63851 /* WPSafeKVOTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA419667225F386600A63851 /* WPSafeKVOTests.m */,
+				EA419669225F386600A63851 /* Info.plist */,
+			);
+			path = WPSafeKVOTests;
+			sourceTree = "<group>";
+		};
+		EA419671225F386600A63851 /* WPSafeKVOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA419672225F386600A63851 /* WPSafeKVOUITests.m */,
+				EA419674225F386600A63851 /* Info.plist */,
+			);
+			path = WPSafeKVOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA41964A225F386300A63851 /* WPSafeKVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA419677225F386600A63851 /* Build configuration list for PBXNativeTarget "WPSafeKVO" */;
+			buildPhases = (
+				EA419647225F386300A63851 /* Sources */,
+				EA419648225F386300A63851 /* Frameworks */,
+				EA419649225F386300A63851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPSafeKVO;
+			productName = WPSafeKVO;
+			productReference = EA41964B225F386300A63851 /* WPSafeKVO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA419662225F386600A63851 /* WPSafeKVOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA41967A225F386600A63851 /* Build configuration list for PBXNativeTarget "WPSafeKVOTests" */;
+			buildPhases = (
+				EA41965F225F386600A63851 /* Sources */,
+				EA419660225F386600A63851 /* Frameworks */,
+				EA419661225F386600A63851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA419665225F386600A63851 /* PBXTargetDependency */,
+			);
+			name = WPSafeKVOTests;
+			productName = WPSafeKVOTests;
+			productReference = EA419663225F386600A63851 /* WPSafeKVOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA41966D225F386600A63851 /* WPSafeKVOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA41967D225F386600A63851 /* Build configuration list for PBXNativeTarget "WPSafeKVOUITests" */;
+			buildPhases = (
+				EA41966A225F386600A63851 /* Sources */,
+				EA41966B225F386600A63851 /* Frameworks */,
+				EA41966C225F386600A63851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA419670225F386600A63851 /* PBXTargetDependency */,
+			);
+			name = WPSafeKVOUITests;
+			productName = WPSafeKVOUITests;
+			productReference = EA41966E225F386600A63851 /* WPSafeKVOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA419643225F386300A63851 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "李伟鹏的MacBook";
+				TargetAttributes = {
+					EA41964A225F386300A63851 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					EA419662225F386600A63851 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = EA41964A225F386300A63851;
+					};
+					EA41966D225F386600A63851 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = EA41964A225F386300A63851;
+					};
+				};
+			};
+			buildConfigurationList = EA419646225F386300A63851 /* Build configuration list for PBXProject "WPSafeKVO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA419642225F386300A63851;
+			productRefGroup = EA41964C225F386300A63851 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA41964A225F386300A63851 /* WPSafeKVO */,
+				EA419662225F386600A63851 /* WPSafeKVOTests */,
+				EA41966D225F386600A63851 /* WPSafeKVOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA419649225F386300A63851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA41965B225F386600A63851 /* LaunchScreen.storyboard in Resources */,
+				EA419658225F386600A63851 /* Assets.xcassets in Resources */,
+				EA419656225F386300A63851 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA419661225F386600A63851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA41966C225F386600A63851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA419647225F386300A63851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA419653225F386300A63851 /* ViewController.m in Sources */,
+				EA41965E225F386600A63851 /* main.m in Sources */,
+				EA419650225F386300A63851 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA41965F225F386600A63851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA419668225F386600A63851 /* WPSafeKVOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA41966A225F386600A63851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA419673225F386600A63851 /* WPSafeKVOUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA419665225F386600A63851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA41964A225F386300A63851 /* WPSafeKVO */;
+			targetProxy = EA419664225F386600A63851 /* PBXContainerItemProxy */;
+		};
+		EA419670225F386600A63851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA41964A225F386300A63851 /* WPSafeKVO */;
+			targetProxy = EA41966F225F386600A63851 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA419654225F386300A63851 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA419655225F386300A63851 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA419659225F386600A63851 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA41965A225F386600A63851 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA419675225F386600A63851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA419676225F386600A63851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA419678225F386600A63851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPSafeKVO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LK.WPSafeKVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA419679225F386600A63851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPSafeKVO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LK.WPSafeKVO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA41967B225F386600A63851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPSafeKVOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LK.WPSafeKVOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPSafeKVO.app/WPSafeKVO";
+			};
+			name = Debug;
+		};
+		EA41967C225F386600A63851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPSafeKVOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LK.WPSafeKVOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPSafeKVO.app/WPSafeKVO";
+			};
+			name = Release;
+		};
+		EA41967E225F386600A63851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPSafeKVOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LK.WPSafeKVOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WPSafeKVO;
+			};
+			name = Debug;
+		};
+		EA41967F225F386600A63851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WPSafeKVOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LK.WPSafeKVOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WPSafeKVO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA419646225F386300A63851 /* Build configuration list for PBXProject "WPSafeKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA419675225F386600A63851 /* Debug */,
+				EA419676225F386600A63851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA419677225F386600A63851 /* Build configuration list for PBXNativeTarget "WPSafeKVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA419678225F386600A63851 /* Debug */,
+				EA419679225F386600A63851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA41967A225F386600A63851 /* Build configuration list for PBXNativeTarget "WPSafeKVOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA41967B225F386600A63851 /* Debug */,
+				EA41967C225F386600A63851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA41967D225F386600A63851 /* Build configuration list for PBXNativeTarget "WPSafeKVOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA41967E225F386600A63851 /* Debug */,
+				EA41967F225F386600A63851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA419643225F386300A63851 /* Project object */;
+}
